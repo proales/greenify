@@ -2,7 +2,7 @@ name: Daily Commits
 
 on:
   schedule:
-    - cron: '0 12 * * *'  # UTC
+    - cron: '*/30 * * * *'  # UTC
 
 jobs:
   daily-commits:
