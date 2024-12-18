@@ -14,8 +14,8 @@ jobs:
 
     - name: Set up Git
       run: |
-        git config --global user.name "sriramjj5"
-        git config --global user.email "sriramjj5@gmail.com"
+        git config --global user.name "proales"
+        git config --global user.email "proales@proales.com"
 
     - name: Create and push daily commit
       env:
