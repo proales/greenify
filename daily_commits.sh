@@ -12,7 +12,7 @@ if (( $(echo "$rand <= 0.9" | bc -l) )); then
   git add arbitrary_change.txt
   GIT_COMMITTER_DATE="$(date +%Y-%m-%dT%H:%M:%S)" git commit --date="$(date +%Y-%m-%dT%H:%M:%S)" -m "Daily commit for $(date)"
   echo "Pushing!"
-  git push https://sriramjj5:${GH_PAT}@github.com/sriramjj5/greenify.git
+  git push https://proales:${GH_PAT}@github.com/proales/greenify.git
 else
   echo "No commit created for today!"
 fi
